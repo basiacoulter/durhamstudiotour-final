@@ -285,7 +285,7 @@ div.viget:after,
 div.weejee:after {
     white-space: pre;
     font-size: 1.4em;
-    padding-top: 3.2em;
+    /*padding-top: 3.2em;*/
     color: #fff;
     text-align: center;
     position:absolute;
@@ -316,45 +316,59 @@ div.weejee:hover:after {
 }
 div.brianallen:after {
 	content:'Brian Allen: \A Letterpress Printing \A 812 N Mangum St. \A Durham NC 27701';
+	padding-top: 2.3em;
 }
 div.caktus:after {
 	content: 'Caktus Group \A 108 Morris St. Ste 2 \A  Durham, NC 27701';
+	padding-top: 3em;
 }
 div.cuberis:after {
 	content:'Cuberis \A 807 E Main St. \A Suite 2-210 \A Durham, NC 27701';
+	padding-top: 2.3em;
 }
 div.engine:after {
 	content:'Engine \A 300 West Morgan St. \A Ste 1475 \A Durham, NC 27701';
+	padding-top: 2.3em;
 }
 div.glover:after {
 	content:'Glover Corp. Inc. \A 2401 Atlantic Ave. \A  Raleigh, NC 27604';
+	padding-top: 3em;
 }
 div.heymonkey:after {
 	content:'Hey Monkey Design \A 105 Hood St. Unit #1 \A Durham, NC 27701';
+	padding-top: 3em;
 }
 div.kompleks:after {
 	content:'Kompleks Creative \A 106 West Parrish St. \A Ste 2 \A Durham, NC 27701';
+	padding-top: 2.3em;
 }
 div.methodsavvy:after {
 	content:'Method Savvy \A 404 Hunt St. Ste 500 \A Durham, NC 27701';
+	padding-top: 3em;
 }
 div.paragraph:after {
 	content:'The Paragraph Project \A 131 Orange St. \A Durham, NC 27701';
+	padding-top: 3em;
 }
 div.republik:after {
 	content:'The Republik \A 211 Rigsbee Ave. \A Durham, NC 27701';
+	padding-top: 3em;
 }
 div.shedletterpress:after {
 	content:'Shed Letterpress \A Studio Tour Location: \A 105 Hood St. Unit #1 \A Durham, NC 27701';
+	padding-top: 2.3em;
 }
 div.smashingboxes:after {
 	content:'Smashing Boxes \A 359 Blackwell St. \A Ste 240 \A Durham, NC 27701';
+	padding-top: 2.3em;
 }
 div.viget:after {
 	content:'Viget \A 202 Rigsbee Ave. \A 2nd Fl. \A Durham, NC 27701';
+	padding-top: 2.3em;
 }
 div.weejee:after {
 	content:'Weejee Learning \A 300 Blackwell St. \A Ste 100 \A Durham, NC 27701';
+	padding-top: 2.3em;
 }
 
 /* Media Query */
@@ -462,20 +476,25 @@ div.weejee:after {
 	img.logo {
 		margin-bottom: 2em;
 	}
-	.register,
-	.download {
-		margin-top: 4em;
-	}
+	
 }
 @media screen and (min-width: 768px) and (max-width: 799px) {
 	div.agency-thumb {
 		width: 10em;
 		height: 10em;
 	}
+	.register,
+	.download {
+		margin-top: 10em;
+	}
 }
 @media screen and (min-width: 800px) {
 	img.logo {
 		margin-bottom: 2em;
+	}
+	.register,
+	.download {
+		margin-top: 14em;
 	}
 }
 @media screen and (min-width: 1024px) and (max-width: 1190px) {
