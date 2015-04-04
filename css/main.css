@@ -233,6 +233,7 @@ img.kompleks,
 img.methodsavvy, 
 img.shedletterpress, 
 img.smashingboxes,
+img.telepathic,
 img.viget, 
 img.weejee {
 	width: 80%;
@@ -242,6 +243,9 @@ img.caktus,
 img.cuberis,
 img.smashingboxes {
 	margin-top: 10%;
+}
+img.telepathic {
+	margin-top: 12%;
 }
 img.engine, 
 img.glover,
@@ -273,7 +277,6 @@ div.brianallen:after,
 div.caktus:after,
 div.cuberis:after,
 div.engine:after,
-div.glover:after,
 div.heymonkey:after,
 div.kompleks:after,
 div.methodsavvy:after,
@@ -281,11 +284,11 @@ div.paragraph:after,
 div.republik:after,
 div.shedletterpress:after,
 div.smashingboxes:after,
+div.telepathic:after,
 div.viget:after,
 div.weejee:after {
     white-space: pre;
     font-size: 1.4em;
-    /*padding-top: 3.2em;*/
     color: #fff;
     text-align: center;
     position:absolute;
@@ -302,7 +305,6 @@ div.brianallen:hover:after,
 div.caktus:hover:after,
 div.cuberis:hover:after,
 div.engine:hover:after,
-div.glover:hover:after,
 div.heymonkey:hover:after,
 div.kompleks:hover:after,
 div.methodsavvy:hover:after,
@@ -310,6 +312,7 @@ div.paragraph:hover:after,
 div.republik:hover:after,
 div.shedletterpress:hover:after,
 div.smashingboxes:hover:after,
+div.telepathic:hover:after,
 div.viget:hover:after,
 div.weejee:hover:after {
     opacity:1;
@@ -329,10 +332,6 @@ div.cuberis:after {
 div.engine:after {
 	content:'Engine \A 300 West Morgan St. \A Ste 1475 \A Durham, NC 27701';
 	padding-top: 2.3em;
-}
-div.glover:after {
-	content:'Glover Corp. Inc. \A 2401 Atlantic Ave. \A  Raleigh, NC 27604';
-	padding-top: 3em;
 }
 div.heymonkey:after {
 	content:'Hey Monkey Design \A 105 Hood St. Unit #1 \A Durham, NC 27701';
@@ -360,6 +359,10 @@ div.shedletterpress:after {
 }
 div.smashingboxes:after {
 	content:'Smashing Boxes \A 359 Blackwell St. \A Ste 240 \A Durham, NC 27701';
+	padding-top: 2.3em;
+}
+div.telepathic:after {
+	content:'Telepathic Graphics \A 6001 Chapel Hill Rd.  \A  Ste 106  \A  Raleigh, NC 27607';
 	padding-top: 2.3em;
 }
 div.viget:after {
